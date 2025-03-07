@@ -28,6 +28,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/4e30142a268b.jpg');
+  background-size: cover; /* Ensure the image covers the whole element */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  height: 100vh; /* Ensure the element takes up the full viewport height */
+  width: 100%; /* Ensure the element takes up the full width */
 }
 
 h1 {
@@ -65,4 +71,35 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.flashcard {
+  background-color: #535bf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 30px;
+  border: 2px solid antiquewhite;
+}
+
+.flashcard:active {
+  
+}
+
+.flashcard-question {
+  font-size: 2em;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.flashcard-answer {
+  font-size: 2em;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 1em;
 }

@@ -1,34 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { useState } from 'react';
+import questionsAnswers from './data/questionsAnswers.jsx';
+import Flashcard from './components/flashcards.jsx';
 
-function App() {
-  const [count, setCount] = useState(0)
+
+const App = () => {
+
+  const [index, setIndex] = useState(0);
+  const [side, setSide] = useState("question");
+
+  const nextCard = () => {
+    const randomIndex = Math.floor(Math.random() * questionsAnswers.length);
+    setIndex(randomIndex);
+    setSide("question");
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="App">
+      <h1 className='webTitle'>Characterizations of Invertible Matrices!</h1>
+      <h2 className='webSubtitle'>Do you know what makes an invertible matrix invertible?</h2>
+      <h3 className='cardCount'>There are: {questionsAnswers.length} flashcards</h3>
+      <Flashcard data={questionsAnswers[index]} side = {side} setSide={setSide}/>
+      <button onClick={nextCard}>Next Card</button>
+
+    </div>
   )
 }
 
