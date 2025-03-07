@@ -86,10 +86,6 @@ button:focus-visible {
   border: 2px solid antiquewhite;
 }
 
-.flashcard:active {
-  
-}
-
 .flashcard-question {
   font-size: 2em;
   font-weight: 400;
