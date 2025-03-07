@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Walkthrough](https://imgur.com/a/5dYEniw)
+![Walkthrough](https://i.imgur.com/f5OfUxc.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
