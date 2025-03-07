@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/SPegIy7' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Walkthrough](https://imgur.com/a/SPegIy7)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
