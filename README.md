@@ -4,7 +4,7 @@ Submitted by: **David Salas C.**
 
 This web app: **This web app is for studying linear algebra. In a series of flashcards it helps the user practice their knowledge on what makes a matrix invertible**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
