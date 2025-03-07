@@ -42,6 +42,7 @@ GIF created with ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app.
+A challenge I faced while building this web app is making the question side of the flashcard be displayed first when clicking the next button.
 
 ## License
 
