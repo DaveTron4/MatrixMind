@@ -39,7 +39,21 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #ffffff;
 }
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+h4 {
+  color: #ffffff;
+}
+
 
 button {
   border-radius: 8px;
@@ -98,4 +112,45 @@ button:focus-visible {
   font-weight: 400;
   color: #ffffff;
   padding: 1em;
+}
+
+
+.guessForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.guessInput_ {
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.guessInput_correct {
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 5px;
+  color: green;  /* Green text if correct */
+  border-color: green;
+}
+
+.guessInput_wrong {
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 5px;
+  color: red;  /* Red text if wrong */
+  border-color: red;
+}
+
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

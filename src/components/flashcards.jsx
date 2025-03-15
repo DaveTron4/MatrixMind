@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 
-const Flashcard = ({ data, side, setSide }) => {
+const Flashcard = ({ data, side, setSide, setSeenAnswer, seenAnswer }) => {
 
   const changeSide = () => {  
     if (side === "question") {
       setSide("answer");
+      setSeenAnswer(true);
     } else {
       setSide("question");
     }
