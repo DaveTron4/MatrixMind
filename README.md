@@ -1,4 +1,4 @@
-# Web Development Project 3 - *Characterization of Invertible Matrices Pt2*
+# Web Development Project 3 - *MatrixMind*
 
 Submitted by: **David Salas C.**
 
