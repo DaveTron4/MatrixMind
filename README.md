@@ -6,6 +6,8 @@ This web app: **This web app is a continuation of Characterization of Invertible
 
 Time spent: **4** hours spent in total
 
+Link to website: [Click Here](https://davetron4.github.io/MatrixMind/)
+
 ## Required Features
 
 The following **required** functionality is completed:
